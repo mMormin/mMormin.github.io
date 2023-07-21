@@ -1,0 +1,60 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@faker-js/faker": "^7.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "axios": "^0.25.0",
+    "click-outside-vue3": "^4.0.1",
+    "core-js": "^3.6.5",
+    "vee-validate": "^4.8.3",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vue3-emoji-picker": "^1.1.7",
+    "vue3-mobile-detection": "^1.0.5",
+    "vuetify": "^3.1.8",
+    "vuex": "^4.0.0-0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.21.3",
+    "@mdi/font": "^7.1.96",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "~v5.0.0-alpha.7",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.0.0",
+    "cypress": "^12.9.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
