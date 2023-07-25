@@ -5,304 +5,494 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>oFig.com | La référence des figurines</title>
+    <title>Maxime Mormin-Boudot</title>
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
-        <h1 class="header__title">
-          oFig<span class="header__subtitle">Figurines et statuettes</span>
-        </h1>
+      <a class="header__lefty" href="#">
+        <span class="header__title"> Maxime Mormin-Boudot</span>
+        <span class="header__subtitle">Front Developer</span>
       </a>
+
       <div class="mobile__nav"></div>
       <nav class="header__nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="./pages/cart.html" class="nav__link">Panier (2)</a>
+            <a href="#contact" class="nav__link">contact</a>
           </li>
           <li class="nav__item">
-            <a href="index.html" class="nav__link nav__link--active">Accueil</a>
+            <a href="#realisations" class="nav__link">réalisations </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link-sub header__subnav"
+              >about me</a
+            >
+            <div class="sublist__nav">
+              <ul class="nav__sublist">
+                <li class="nav__subitem">
+                  <a class="nav__sublink" href="#formation">formation</a>
+                </li>
+                <li class="nav__subitem">
+                  <a class="nav__sublink" href="">technologies</a>
+                </li>
+                <li class="nav__subitem">
+                  <a class="nav__sublink" href="">tools</a>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
-      <aside class="aside"><span class="aside__text">SOLDES</span></aside>
-      <section class="headband">
-        <h2 class="headband__title">
-          Figurines sur le thème
-          <span class="headband__focus">final fantasy</span>
-        </h2>
+      <section id="#" class="page page-home">
+        <div class="home__wrapper wrapper">
+          <h1 class="home__title">intégrateur & développeur web</h1>
+
+          <p class="home__description">
+            <span>J'habite dans la région parisienne</span>
+            <span>
+              Je manipule les technologies web front et back depuis plus de 5
+              années
+            </span>
+            <span
+              >Intégration, développement front-end et futur Full-Stack</span
+            >
+          </p>
+
+          <a href="#about-me" class="home__button">
+            about me&nbsp;&nbsp;<span class="arrow home__button-arrow"></span>
+          </a>
+        </div>
       </section>
-      <section class="figs">
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/aerith.png"
-                  alt="Figurine de Aerith Gainsborough"
-                />
-                <span class="fig__opus">Final Fantasy Crisis Core</span>
-                <figcaption>
-                  <h3 class="fig__title">Aerith Gainsborough</h3>
-                  <p class="fig__sub">
-                    Figurine de 7 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
 
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">74,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
+      <section id="about-me" class="page page-aboutme">
+        <div class="page__wrapper">
+          <h2 class="page__title aboutme__title">
+            about me<span>&#8692;</span>
+          </h2>
+          <div class="content__wrapper">
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">Intégration</h3>
+              <p class="page__content-text">
+                Intégrateur web depuis la fin de <a>mes études</a> en 2015, j'ai
+                passé beaucoup d'heures et d'investissement à intégrer
+                différents contenus pour le web. <br /><br />
+                Au début en dur puis via différents <a>CMS et frameworks</a>, je
+                me suis toujours intéressé aux technologies permettant
+                l'intégration et la gestion de contenus web.
+              </p>
+            </div>
 
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <span class="fig__badge fig__badge--promo">-20%</span>
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/cloud.png"
-                  alt="Figurine de Cloud Strife Remake"
-                />
-                <span class="fig__opus">Final Fantasy VII</span>
-                <figcaption>
-                  <h3 class="fig__title">Cloud Strife Remake</h3>
-                  <p class="fig__sub">
-                    Figurine de 8 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
+            <div class="page__content page__content-righty">
+              <h3 class="page__content-subtitle">Front-end</h3>
+              <p class="page__content-text">
+                <a>Javascript, jQuery</a> et <a>CSS3</a> m'on permit de donner
+                du mouvement, de dynamiser mes intégrations et, par la suite, de
+                manipuler des données et des APIs. Bonnes pratiques du web,
+                responsivité, cartes interactives, formulaires de prise de
+                contact ou encore tracking d'applications sont les maitres mots.
+              </p>
+            </div>
 
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">
-                  <span class="fig__price-old">59 €</span>
-                  74,90 €
-                </span>
-              </div>
-            </footer>
-          </a>
-        </article>
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">Back-end</h3>
+              <p class="page__content-text">
+                En <a>auto-entreprenariat</a> en tant que chef de projet et
+                développeur <a>HTML/PHP</a>. Réalisation de maquettes
+                responsive, design d'applications, intégration et gestion de
+                projet ont été mes casquettes dans le but de choisir les projets
+                et les technologies qui me convenaient. <br /><br />
+                En <a>agence 360</a> en tant que développeur web. Alors
+                technicien du web, j'ai réalisé des sites de marques et de
+                lancement de produits ainsi que l'intégration et la gestion
+                d'envoie d'emails. Vieilles techniques, graphiques et réunions
+                Agile avec des membres de l'agence.
+              </p>
+            </div>
 
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/cloud-ac.png"
-                  alt="Figurine de Cloud Strife"
-                />
-                <span class="fig__opus">Final Fantasy Advent Children</span>
-                <figcaption>
-                  <h3 class="fig__title">Cloud Strife</h3>
-                  <p class="fig__sub">
-                    Figurine de 7 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
+            <div class="page__content page__content-righty">
+              <h3 class="page__content-subtitle">Gestion & Monitoring</h3>
+              <p class="page__content-text">
+                Pendant mon BAC, je déployait des serveurs Windows ou Ubuntu
+                pour des institutions. Quelques années plus tard.. je déployait
+                des serveurs web Ubuntu en CLI afin d'héberger les sites
+                internet que j'avais développé pour des clients.
+              </p>
+            </div>
 
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">98,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/cloud-bike.png"
-                  alt="Figurine de Cloud Strife & Fenrir"
-                />
-                <span class="fig__opus">Final Fantasy VII</span>
-                <figcaption>
-                  <h3 class="fig__title">Cloud Strife & Fenrir</h3>
-                  <p class="fig__sub">
-                    Figurine de 7 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">113,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <span class="fig__badge fig__badge--promo">-30%</span>
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/tifa.png"
-                  alt="Figurine de Tifa Lockhart"
-                />
-                <span class="fig__opus">Final Fantasy Advent Children</span>
-                <figcaption>
-                  <h3 class="fig__title">Tifa Lockhart</h3>
-                  <p class="fig__sub">
-                    Figurine de 7 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">
-                  <span class="fig__price-old">69 €</span>
-                  98,90 €
-                </span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/vincent.png"
-                  alt="Figurine de Vincent Valentine"
-                />
-                <span class="fig__opus">Final Fantasy VII</span>
-                <figcaption>
-                  <h3 class="fig__title">Vincent Valentine</h3>
-                  <p class="fig__sub">
-                    Figurine de 7 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">74,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/barret.png"
-                  alt="Figurine de Barret Wallace"
-                />
-                <span class="fig__opus">Final Fantasy VII</span>
-                <figcaption>
-                  <h3 class="fig__title">Barret Wallace</h3>
-                  <p class="fig__sub">
-                    Figurine de 8 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">74,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/sephiroth.png"
-                  alt="Figurine de Sephiroth"
-                />
-                <span class="fig__opus">Final Fantasy VII</span>
-                <figcaption>
-                  <h3 class="fig__title">Sephiroth</h3>
-                  <p class="fig__sub">
-                    Figurine de 10 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">113,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
-
-        <article class="fig">
-          <a class="fig__link" href="./pages/cart.html">
-            <header class="fig__header">
-              <span class="fig__badge fig__badge--new">new</span>
-              <figure>
-                <img
-                  class="fig__photo"
-                  src="./img/nanaki.png"
-                  alt="Figurine de Nanaki - Red XIII"
-                />
-                <span class="fig__opus">Final Fantasy Advent Children</span>
-                <figcaption>
-                  <h3 class="fig__title">Nanaki - Red XIII</h3>
-                  <p class="fig__sub">
-                    Figurine de 5 pouces - livrée avec son packaging
-                  </p>
-                </figcaption>
-              </figure>
-            </header>
-
-            <footer class="fig__footer">
-              <div class="fig__add-to-cart">
-                <span class="fig__cta">Ajouter au panier</span>
-                <span class="fig__price">98,90 €</span>
-              </div>
-            </footer>
-          </a>
-        </article>
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">FullStack orienté Front</h3>
+              <p class="page__content-text">
+                Mes expériences avec les frameworks et les CMS ainsi que jQuery,
+                m'ont donné envie d'approfondire mes connaissances en Javascript
+                et je suis maintenant tourné vers Node et Vue.js.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section id="parcours" class="page page-parcours">
+        <div class="page__wrapper">
+          <h2 class="page__title">parcours<span>&#8692;</span></h2>
+          <div class="content__wrapper content__wrapper-parcours">
+            <div class="parcours__years">
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  3 années
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  2007 - 2010
+                </span>
+              </p>
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  3 années
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  2012 - 2015
+                </span>
+              </p>
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  1 année
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  2016 - 2017
+                </span>
+              </p>
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  2 années
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  2017 - 2019
+                </span>
+              </p>
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  3 mois
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  Décembre 2021 - Mars 2022
+                </span>
+              </p>
+              <p class="parcours__year parcours__step">
+                <span
+                  class="parcours__place-title parcours__place-title--variant"
+                >
+                  6 mois
+                </span>
+                <span class="parcours__place-subtitle--variant">
+                  Juin 2023 - 2024
+                </span>
+              </p>
+            </div>
+            <div class="parcours__places">
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">
+                  baccalauréat professionnel
+                </span>
+                <span class="parcours__place-subtitle">
+                  lycée eugène ionesco (92130)
+                </span>
+              </p>
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">
+                  bachelor chef de projet multimedia
+                </span>
+                <span class="parcours__place-subtitle">
+                  institut de l'internet et du multimédia (92800)
+                </span>
+              </p>
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">auto-entreprenariat</span>
+                <span class="parcours__place-subtitle">
+                  développeur (paris)
+                </span>
+              </p>
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">
+                  développeur web front-end & back-end
+                </span>
+                <span class="parcours__place-subtitle">
+                  Grenadine-et-cie (92120)
+                </span>
+              </p>
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">
+                  formation full-stack
+                </span>
+                <span class="parcours__place-subtitle">
+                  open classroom (distanciel)
+                </span>
+              </p>
+              <span class="parcours__dot dot"></span>
+              <p class="parcours__place parcours__step">
+                <span class="parcours__place-title">
+                  formation web / titre professionnel
+                </span>
+                <span class="parcours__place-subtitle">
+                  o'clock (distanciel)
+                </span>
+              </p>
+              <span class="parcours__dot-end dot"></span>
+              <span class="parcours__dot-end dot"></span>
+              <span class="parcours__dot-end dot"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="page page-skills">
+        <div class="page__wrapper">
+          <h2 class="page__title">technologies & tools<span>&#8692;</span></h2>
+          <h2 class="page__title page__title--variant">
+            Developpeur certes ...
+          </h2>
+          <div class="content__wrapper content__wrapper-skills">
+            <div class="left">
+              <h3 class="page__content-title">front-end</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label">HTML5</p>
+                  <progress
+                    value="100"
+                    max="100"
+                    style="--value: 100; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">CSS3</p>
+                  <progress
+                    value="90"
+                    max="100"
+                    style="--value: 90; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">jQuery</p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">
+                    vue.js <span class="skills__label-version">(vue3)</span>
+                  </p>
+                  <progress
+                    value="60"
+                    max="100"
+                    style="--value: 60; --max: 100"
+                  ></progress>
+                </li>
+              </ul>
+              <h3 class="page__content-title">CMS & PHP</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label">
+                    Symfony<span class="skills__label-version">(2)</span>
+                  </p>
+                  <progress
+                    value="45"
+                    max="100"
+                    style="--value: 45; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">Wordpress</p>
+                  <progress
+                    value="65"
+                    max="100"
+                    style="--value: 65; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">
+                    Angular<span class="skills__label-version">(2)</span>
+                  </p>
+                  <progress
+                    value="30"
+                    max="100"
+                    style="--value: 30; --max: 100"
+                  ></progress>
+                </li>
+              </ul>
+              <h3 class="page__content-title">gestionnaires de packages</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label">Bower</p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">Composer</p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">npm</p>
+                  <progress
+                    value="100"
+                    max="100"
+                    style="--value: 100; --max: 100"
+                  ></progress>
+                </li>
+              </ul>
+            </div>
+
+            <div class="right">
+              <h3 class="page__content-title">back-end</h3>
+              <ul class="list list--last">
+                <li class="list__item">
+                  <p class="skills__label">
+                    node.js <span class="skills__label-version">(18.17)</span>
+                  </p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">
+                    express.js <span class="skills__label-version">(4)</span>
+                  </p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+              </ul>
+              <h3 class="page__content-title">serveur</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label">Nginx</p>
+                  <progress
+                    value="70"
+                    max="100"
+                    style="--value: 70; --max: 100"
+                  ></progress>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label">Apache2</p>
+                  <progress
+                    value="60"
+                    max="100"
+                    style="--value: 60; --max: 100"
+                  ></progress>
+                </li>
+              </ul>
+              <h3 class="page__content-title page__content-title--last">
+                outils
+              </h3>
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    Suite Adobe
+                    <span class="skills__label-version">
+                      (Photoshop, XD et Illustrator)
+                    </span>
+                  </p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    Visual Studio Code
+                  </p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">gitHub</p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">Docker</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h2 class="page__title page__title--variant">
+            ... mais pas sans bonnes pratiques
+          </h2>
+          <div class="content__wrapper content__wrapper-skills">
+            <ul class="list">
+              <li class="list__item">
+                <p class="skills__label skills__label--full">Accéssibilité</p>
+              </li>
+              <li class="list__item">
+                <p class="skills__label skills__label--full">
+                  Responsivité desktop & mobile first
+                </p>
+              </li>
+              <li class="list__item">
+                <p class="skills__label skills__label--full">
+                  BEM, conventions de nommage et code commments
+                </p>
+              </li>
+              <li class="list__item">
+                <p class="skills__label skills__label--full">
+                  Visual Studio Code
+                </p>
+              </li>
+              <li class="list__item">
+                <p class="skills__label skills__label--full">
+                  Maquettage
+                  <span class="skills__label-version">
+                    (Wireframe & Zonning)
+                  </span>
+                </p>
+              </li>
+              <li class="list__item">
+                <p class="skills__label skills__label--full">
+                  Recettage
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="realisations" class="page page-real">
+        <div class="page__wrapper">
+          <h2 class="page__title">réalisations<span>&#8692;</span></h2>
+        </div>
+      </section>
+
+      <section id="contact" class="page page-contact">
+        <div class="page__wrapper">
+          <h2 class="page__title">contact<span>&#8692;</span></h2>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span class="footer__title"
+          >oFig - toutes les images sont sous copyright SquareEnix</span
+        >
+      </footer>
     </main>
-
-    <footer class="footer">
-      <span class="footer__title"
-        >oFig - toutes les images sont sous copyright SquareEnix</span
-      >
-    </footer>
   </body>
 </html>
