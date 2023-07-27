@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__lefty" href="#">
+      <a class="header__lefty" href="#home">
         <span class="header__title"> Maxime Mormin-Boudot</span>
         <span class="header__subtitle">Front Developer</span>
       </a>
@@ -24,9 +24,9 @@
             <a href="#realisations" class="nav__link">réalisations </a>
           </li>
           <li class="nav__item">
-            <a href="#about-me" class="nav__link-sub header__subnav"
-              >about me</a
-            >
+            <a href="#about-me" class="nav__link-sub header__subnav">
+              about me
+            </a>
             <div class="sublist__nav">
               <ul class="nav__sublist">
                 <li class="nav__subitem">
@@ -46,8 +46,8 @@
     </header>
 
     <main class="main">
-      <section id="#" class="page page-home">
-        <div class="home__wrapper wrapper">
+      <section id="home" class="page page-home">
+        <div class="home__wrapper">
           <h1 class="home__title">intégrateur & développeur web</h1>
 
           <p class="home__description">
@@ -56,79 +56,229 @@
               Je manipule les technologies web front et back depuis plus de 5
               années
             </span>
-            <span
-              >Intégration, développement front-end et futur Full-Stack</span
-            >
+            <span>
+              Intégration, développement front-end et futur Full-Stack
+            </span>
           </p>
 
-          <a href="#about-me" class="home__button">
+          <a href="#about-me" class="home__button button">
             about me&nbsp;&nbsp;<span class="arrow home__button-arrow"></span>
           </a>
         </div>
       </section>
 
-      <section id="about-me" class="page page-aboutme">
+      <section id="skills" class="page page-skills">
         <div class="page__wrapper">
-          <h2 class="page__title aboutme__title">
-            about me<span>&#8692;</span>
-          </h2>
+          <h2 class="page__title skills__title">technologies & tools<span class="title-span skills__title-span">&#9660;</span></h2>
           <div class="content__wrapper">
-            <div class="page__content page__content-lefty">
-              <h3 class="page__content-subtitle">Intégration</h3>
-              <p class="page__content-text">
-                Intégrateur web depuis la fin de <a>mes études</a> en 2015, j'ai
-                passé beaucoup d'heures et d'investissement à intégrer
-                différents contenus pour le web. <br /><br />
-                Au début en dur puis via différents <a>CMS et frameworks</a>, je
-                me suis toujours intéressé aux technologies permettant
-                l'intégration et la gestion de contenus web.
-              </p>
-            </div>
+            <h2 class="page__subtitle">Développeur certes . . .</h2>
 
-            <div class="page__content page__content-righty">
-              <h3 class="page__content-subtitle">Front-end</h3>
-              <p class="page__content-text">
-                <a>Javascript, jQuery</a> et <a>CSS3</a> m'on permit de donner
-                du mouvement, de dynamiser mes intégrations et, par la suite, de
-                manipuler des données et des APIs. Bonnes pratiques du web,
-                responsivité, cartes interactives, formulaires de prise de
-                contact ou encore tracking d'applications sont les maitres mots.
-              </p>
-            </div>
+            <div class="content__wrapper-skills">
+              <div class="left">
+                <h3 class="page__content-title">front-end</h3>
+                <ul class="list">
+                  <li class="list__item">
+                    <p class="skills__label">HTML5</p>
+                    <progress
+                      value="100"
+                      max="100"
+                      style="--value: 100; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">CSS3</p>
+                    <progress
+                      value="90"
+                      max="100"
+                      style="--value: 90; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">jQuery</p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">
+                      vue.js <span class="skills__label-version">(vue3)</span>
+                    </p>
+                    <progress
+                      value="60"
+                      max="100"
+                      style="--value: 60; --max: 100"
+                    ></progress>
+                  </li>
+                </ul>
+                <h3 class="page__content-title">CMS & PHP</h3>
+                <ul class="list">
+                  <li class="list__item">
+                    <p class="skills__label">
+                      Symfony<span class="skills__label-version">(2)</span>
+                    </p>
+                    <progress
+                      value="45"
+                      max="100"
+                      style="--value: 45; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">Wordpress</p>
+                    <progress
+                      value="65"
+                      max="100"
+                      style="--value: 65; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">
+                      Angular<span class="skills__label-version">(2)</span>
+                    </p>
+                    <progress
+                      value="30"
+                      max="100"
+                      style="--value: 30; --max: 100"
+                    ></progress>
+                  </li>
+                </ul>
+                <h3 class="page__content-title">gestionnaires de packages</h3>
+                <ul class="list">
+                  <li class="list__item">
+                    <p class="skills__label">Bower</p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">Composer</p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">npm</p>
+                    <progress
+                      value="100"
+                      max="100"
+                      style="--value: 100; --max: 100"
+                    ></progress>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="page__content page__content-lefty">
-              <h3 class="page__content-subtitle">Back-end</h3>
-              <p class="page__content-text">
-                En <a>auto-entreprenariat</a> en tant que chef de projet et
-                développeur <a>HTML/PHP</a>. Réalisation de maquettes
-                responsive, design d'applications, intégration et gestion de
-                projet ont été mes casquettes dans le but de choisir les projets
-                et les technologies qui me convenaient. <br /><br />
-                En <a>agence 360</a> en tant que développeur web. Alors
-                technicien du web, j'ai réalisé des sites de marques et de
-                lancement de produits ainsi que l'intégration et la gestion
-                d'envoie d'emails. Vieilles techniques, graphiques et réunions
-                Agile avec des membres de l'agence.
-              </p>
+              <div class="right">
+                <h3 class="page__content-title">back-end</h3>
+                <ul class="list list--last">
+                  <li class="list__item">
+                    <p class="skills__label">
+                      node.js <span class="skills__label-version">(18.17)</span>
+                    </p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">
+                      express.js <span class="skills__label-version">(4)</span>
+                    </p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                </ul>
+                <h3 class="page__content-title">serveur</h3>
+                <ul class="list">
+                  <li class="list__item">
+                    <p class="skills__label">Nginx</p>
+                    <progress
+                      value="70"
+                      max="100"
+                      style="--value: 70; --max: 100"
+                    ></progress>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label">Apache2</p>
+                    <progress
+                      value="60"
+                      max="100"
+                      style="--value: 60; --max: 100"
+                    ></progress>
+                  </li>
+                </ul>
+                <h3 class="page__content-title page__content-title--last">
+                  outils
+                </h3>
+                <ul class="list">
+                  <li class="list__item">
+                    <p class="skills__label skills__label--full">
+                      Suite Adobe
+                      <span class="skills__label-version">
+                        (Photoshop, XD et Illustrator)
+                      </span>
+                    </p>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label skills__label--full">
+                      Visual Studio Code
+                    </p>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label skills__label--full">gitHub</p>
+                  </li>
+                  <li class="list__item">
+                    <p class="skills__label skills__label--full">Docker</p>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
 
-            <div class="page__content page__content-righty">
-              <h3 class="page__content-subtitle">Gestion & Monitoring</h3>
-              <p class="page__content-text">
-                Pendant mon BAC, je déployait des serveurs Windows ou Ubuntu
-                pour des institutions. Quelques années plus tard.. je déployait
-                des serveurs web Ubuntu en CLI afin d'héberger les sites
-                internet que j'avais développé pour des clients.
-              </p>
-            </div>
-
-            <div class="page__content page__content-lefty">
-              <h3 class="page__content-subtitle">FullStack orienté Front</h3>
-              <p class="page__content-text">
-                Mes expériences avec les frameworks et les CMS ainsi que jQuery,
-                m'ont donné envie d'approfondire mes connaissances en Javascript
-                et je suis maintenant tourné vers Node et Vue.js.
-              </p>
+          <div class="content__wrapper">
+            <h2 class="page__subtitle page__subtitle-variant">
+              . . . mais avec les bonnes pratiques !
+            </h2>
+            <div class="content__wrapper-skills content__wrapper-skills--last">
+              <ul class="list">
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">Accéssibilité</p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    Responsivité desktop & mobile First
+                  </p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    BEM, Conventions de nommage et Commentaires
+                  </p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    Visual Studio Code
+                  </p>
+                </li>
+                <li class="list__item">
+                  <p class="skills__label skills__label--full">
+                    Maquettage
+                    <span class="skills__label-version">
+                      (Wireframe & Zonning)
+                    </span>
+                  </p>
+                </li>
+                <li class="list__item list__item--last">
+                  <p class="skills__label skills__label--full">Recettage</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -136,7 +286,7 @@
 
       <section id="parcours" class="page page-parcours">
         <div class="page__wrapper">
-          <h2 class="page__title">parcours<span>&#8692;</span></h2>
+          <h2 class="page__title">parcours<span class="title-span parcours__title-span">&#8605;</span></h2>
           <div class="content__wrapper content__wrapper-parcours">
             <div class="parcours__years">
               <p class="parcours__year parcours__step">
@@ -261,238 +411,114 @@
         </div>
       </section>
 
-      <section id="skills" class="page page-skills">
+      <section id="realisations" class="page page-real">
         <div class="page__wrapper">
-          <h2 class="page__title">technologies & tools<span>&#8692;</span></h2>
-          <h2 class="page__title page__title--variant">
-            Developpeur certes ...
-          </h2>
-          <div class="content__wrapper content__wrapper-skills">
-            <div class="left">
-              <h3 class="page__content-title">front-end</h3>
-              <ul class="list">
-                <li class="list__item">
-                  <p class="skills__label">HTML5</p>
-                  <progress
-                    value="100"
-                    max="100"
-                    style="--value: 100; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">CSS3</p>
-                  <progress
-                    value="90"
-                    max="100"
-                    style="--value: 90; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">jQuery</p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">
-                    vue.js <span class="skills__label-version">(vue3)</span>
-                  </p>
-                  <progress
-                    value="60"
-                    max="100"
-                    style="--value: 60; --max: 100"
-                  ></progress>
-                </li>
-              </ul>
-              <h3 class="page__content-title">CMS & PHP</h3>
-              <ul class="list">
-                <li class="list__item">
-                  <p class="skills__label">
-                    Symfony<span class="skills__label-version">(2)</span>
-                  </p>
-                  <progress
-                    value="45"
-                    max="100"
-                    style="--value: 45; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">Wordpress</p>
-                  <progress
-                    value="65"
-                    max="100"
-                    style="--value: 65; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">
-                    Angular<span class="skills__label-version">(2)</span>
-                  </p>
-                  <progress
-                    value="30"
-                    max="100"
-                    style="--value: 30; --max: 100"
-                  ></progress>
-                </li>
-              </ul>
-              <h3 class="page__content-title">gestionnaires de packages</h3>
-              <ul class="list">
-                <li class="list__item">
-                  <p class="skills__label">Bower</p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">Composer</p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">npm</p>
-                  <progress
-                    value="100"
-                    max="100"
-                    style="--value: 100; --max: 100"
-                  ></progress>
-                </li>
-              </ul>
-            </div>
-
-            <div class="right">
-              <h3 class="page__content-title">back-end</h3>
-              <ul class="list list--last">
-                <li class="list__item">
-                  <p class="skills__label">
-                    node.js <span class="skills__label-version">(18.17)</span>
-                  </p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">
-                    express.js <span class="skills__label-version">(4)</span>
-                  </p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-              </ul>
-              <h3 class="page__content-title">serveur</h3>
-              <ul class="list">
-                <li class="list__item">
-                  <p class="skills__label">Nginx</p>
-                  <progress
-                    value="70"
-                    max="100"
-                    style="--value: 70; --max: 100"
-                  ></progress>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label">Apache2</p>
-                  <progress
-                    value="60"
-                    max="100"
-                    style="--value: 60; --max: 100"
-                  ></progress>
-                </li>
-              </ul>
-              <h3 class="page__content-title page__content-title--last">
-                outils
-              </h3>
-              <ul class="list">
-                <li class="list__item">
-                  <p class="skills__label skills__label--full">
-                    Suite Adobe
-                    <span class="skills__label-version">
-                      (Photoshop, XD et Illustrator)
-                    </span>
-                  </p>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label skills__label--full">
-                    Visual Studio Code
-                  </p>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label skills__label--full">gitHub</p>
-                </li>
-                <li class="list__item">
-                  <p class="skills__label skills__label--full">Docker</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h2 class="page__title page__title--variant">
-            ... mais pas sans bonnes pratiques
-          </h2>
-          <div class="content__wrapper content__wrapper-skills">
-            <ul class="list">
-              <li class="list__item">
-                <p class="skills__label skills__label--full">Accéssibilité</p>
-              </li>
-              <li class="list__item">
-                <p class="skills__label skills__label--full">
-                  Responsivité desktop & mobile first
-                </p>
-              </li>
-              <li class="list__item">
-                <p class="skills__label skills__label--full">
-                  BEM, conventions de nommage et code commments
-                </p>
-              </li>
-              <li class="list__item">
-                <p class="skills__label skills__label--full">
-                  Visual Studio Code
-                </p>
-              </li>
-              <li class="list__item">
-                <p class="skills__label skills__label--full">
-                  Maquettage
-                  <span class="skills__label-version">
-                    (Wireframe & Zonning)
-                  </span>
-                </p>
-              </li>
-              <li class="list__item">
-                <p class="skills__label skills__label--full">
-                  Recettage
-                </p>
-              </li>
-            </ul>
-          </div>
+          <h2 class="page__title real__title">réalisations<span class="real__title-span title-span">&#8602;</span></h2>
         </div>
       </section>
 
-      <section id="realisations" class="page page-real">
+      <section id="about-me" class="page page-aboutme">
         <div class="page__wrapper">
-          <h2 class="page__title">réalisations<span>&#8692;</span></h2>
+          <h2 class="page__title aboutme__title">
+            about me<span class="title-span aboutme__title-span">&#8692;</span>
+          </h2>
+          <div class="content__wrapper">
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">Intégration</h3>
+              <p class="page__content-text">
+                Intégrateur web depuis la fin de <a>mes études</a> en 2015, j'ai
+                passé beaucoup d'heures et d'investissement à intégrer
+                différents contenus pour le web. <br /><br />
+                Au début en dur puis via différents <a>CMS et frameworks</a>, je
+                me suis toujours intéressé aux technologies permettant
+                l'intégration et la gestion de contenus web.
+              </p>
+            </div>
+
+            <div class="page__content page__content-righty">
+              <h3 class="page__content-subtitle">Front-end</h3>
+              <p class="page__content-text">
+                <a>Javascript, jQuery</a> et <a>CSS3</a> m'on permit de donner
+                du mouvement, de dynamiser mes intégrations et, par la suite, de
+                manipuler des données et des APIs. Bonnes pratiques du web,
+                responsivité, cartes interactives, formulaires de prise de
+                contact ou encore tracking d'applications sont les maitres mots.
+              </p>
+            </div>
+
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">Back-end</h3>
+              <p class="page__content-text">
+                En <a>auto-entreprenariat</a> en tant que chef de projet et
+                développeur <a>HTML/PHP</a>. Réalisation de maquettes
+                responsive, design d'applications, intégration et gestion de
+                projet ont été mes casquettes dans le but de choisir les projets
+                et les technologies qui me convenaient. <br /><br />
+                En <a>agence 360</a> en tant que développeur web. Alors
+                technicien du web, j'ai réalisé des sites de marques et de
+                lancement de produits ainsi que l'intégration et la gestion
+                d'envoie d'emails. Vieilles techniques, graphiques et réunions
+                Agile avec des membres de l'agence.
+              </p>
+            </div>
+
+            <div class="page__content page__content-righty">
+              <h3 class="page__content-subtitle">Gestion & Monitoring</h3>
+              <p class="page__content-text">
+                Pendant mon BAC, je déployait des serveurs Windows ou Ubuntu
+                pour des institutions. Quelques années plus tard.. je déployait
+                des serveurs web Ubuntu en CLI afin d'héberger les sites
+                internet que j'avais développé pour des clients.
+              </p>
+            </div>
+
+            <div class="page__content page__content-lefty">
+              <h3 class="page__content-subtitle">FullStack orienté Front</h3>
+              <p class="page__content-text">
+                Mes expériences avec les frameworks et les CMS ainsi que jQuery,
+                m'ont donné envie d'approfondire mes connaissances en Javascript
+                et je suis maintenant tourné vers Node et Vue.js.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="contact" class="page page-contact">
         <div class="page__wrapper">
-          <h2 class="page__title">contact<span>&#8692;</span></h2>
+          <h2 class="page__title">contact<span class="title-span contact__title-span">&#11152;</span></h2>
+          <form class="form">
+            <fieldset>
+              <legend h3 class="form__title">let's meet !</legend>
+
+              <div class="label__wrapper label__wrapper-duo subject">
+                <label for="street">Sujet</label>
+                <input type="text" id="street" name="street" />
+              </div>
+
+              <div class="label__wrapper label__wrapper-duo address__more">
+                <label for="more">Message</label>
+                <textarea
+                  class="address__more-textarea"
+                  name="more"
+                  id="more"
+                  cols="25"
+                  rows="20"
+                ></textarea>
+              </div>
+            </fieldset>
+            <button class="button">let's gong</button>
+          </form>
         </div>
       </section>
 
       <footer class="footer">
-        <span class="footer__title"
-          >oFig - toutes les images sont sous copyright SquareEnix</span
-        >
+        <span class="footer__title">
+          G E G G
+        </span>
       </footer>
     </main>
+    <script type="text/javascript" src="./js/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
